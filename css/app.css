@@ -355,12 +355,17 @@ portfolio
                     z-index: 10;
                     width: 100%;
                     height: 100%;
+                    /*                    transform: translateY(50px);*/
                 }
                 .grid- svg path {
                     fill: #fff;
+                    transform: translateX(0);
                 }
                 .grid- a:hover figure img {
                     opacity: 1;
+                }
+                .grid- a:hover svg path {
+                    transform: translateX(300px);
                 }
                 .grid- a:hover figcaption h2,
                 .grid- a:hover figcaption p {
